@@ -1,0 +1,141 @@
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Londrina+Shadow&family=Poller+One&family=Poppins:ital,wght@0,100;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Londrina+Shadow&family=Poller+One&family=Poppins:ital,wght@0,100;1,100&display=swap');
+body {
+  position: relative;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  margin: 0 8rem;
+  color: hsl(243, 87%, 12%);
+  background-color: white;
+  width: auto;
+  height: auto;
+
+}
+.home{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    
+}
+
+.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color:transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.navbar a{
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 45px ;
+
+}
+.navbar a:hover {
+    color: blue;
+}
+.pic{
+  position: absolute;
+  top: 10%;
+  left: 50%;
+
+}
+.pic-1{
+  position: absolute;
+  top: 90%;
+  left: 50%;
+}
+
+
+.jumbotron{
+  margin-top: 130px;
+  margin-right: 5px;
+  max-width: 700px;
+}
+
+#exampleInputEmail1{
+  width: 50%;
+}
+
+.jumbotron-1{
+  margin-top: 130px;
+  margin-right: 5px;
+
+}
+.vh-50{
+  position: absolute;
+  top: 98%;
+  left: -7%;
+  height: 50vh;
+  width: 50%;
+  float: left;
+  margin: top;
+  
+}
+.works{
+  color:black;
+  text-decoration: underline green;
+}
+.icon{
+  color: green;
+}
+.bf-footer{
+  position: absolute;
+  top: 145%;
+  width: 100%;
+}
+
+.lst-footer{
+  position: absolute;
+  top: 165%;
+  width: 100%;
+  float: left;
+  align-items: baseline;
+}
+
+@media (min-width: 400px) and (max-width: 1440px) {
+   
+}
+
+.mb-4{
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.icons{
+    margin: 10px;
+}
+figcaption{
+    line-height: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h5{
+    margin: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pi{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
